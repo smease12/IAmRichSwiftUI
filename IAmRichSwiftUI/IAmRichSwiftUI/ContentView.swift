@@ -9,10 +9,12 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Text("I Am Rich")
+        ZStack {
+            Color(red: 0.5, green: 0.5, blue: 0.5)
+            Text("I am Rich").font(.system(size: 40))
+                .fontWeight(.bold)
+                .foregroundColor(Color.white)
         }
-        .padding()
     }
 }
 
