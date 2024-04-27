@@ -20,5 +20,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    ContentView().previewDevice(PreviewDevice(rawValue: "iPhone SE"))
 }
