@@ -15,7 +15,10 @@ struct ContentView: View {
                 Text("I am Rich").font(.system(size: 40))
                     .fontWeight(.bold)
                 .foregroundColor(Color.white)
-                Image("Image Name")
+                Image("diamond")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 200, height: 200, alignment: .center)
             }
         }
     }
